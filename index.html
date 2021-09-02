@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="banner">
+        <h1>Reverse The String In Real Time</h1>
+
+        <div class="main_string">
+            <h2>Enter The String</h2>
+            <input type = "text" name = "" id = "reverseTheString" onkeyUp = "reverseString()">
+        </div>
+    
+        <div class="rev_string">
+            <h2>Reversed String</h2>
+            <input type = "text" name = "" id = "showData">
+        </div>
+    </div>
+
+
+    <script>
+        function reverseString()
+        {
+            var str = document.getElementById('reverseTheString').value;
+
+            var newString = "";
+
+            for(var i=str.length-1; i>=0; i--)
+            {
+                newString += str[i];
+            }
+
+            document.getElementById('showData').value = newString;
+        }
+    </script>
+</body>
+</html>

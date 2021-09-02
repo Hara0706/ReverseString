@@ -1,0 +1,54 @@
+*
+{
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.banner
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('plant.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+    color: rgb(27, 112, 6);
+    
+}
+
+h2
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    color: rgb(27, 112, 6);
+}
+
+.main_string
+{
+    padding-left: 100px;
+}
+
+.rev_string
+{
+    padding-left: 100px;
+}
+
+input
+{
+    width:40%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius:10px;
+    font-size:18px;
+}
